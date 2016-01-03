@@ -44,7 +44,7 @@
 
 		c.prototype = Object.create(superC.prototype);
 		c.prototype._inherits  = superC.prototype._inherits || [];
-	  c.prototype._inherits.push(superC._class);
+		c.prototype._inherits.push(superC._class);
 		return c.prototype;
 	}
 
